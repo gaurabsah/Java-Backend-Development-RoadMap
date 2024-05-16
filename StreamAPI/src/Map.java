@@ -15,8 +15,8 @@ public class Map {
 
 //		adding element greater than 5 with 10
 		List<Integer> map = list.stream().filter(f -> f > 5).map(m -> m + 10)
-				.toList();
-//				.collect(Collectors.toList());
+//				.toList();
+				.collect(Collectors.toList());
 		System.out.println(map);
 	}
 

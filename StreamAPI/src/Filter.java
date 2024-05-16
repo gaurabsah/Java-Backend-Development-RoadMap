@@ -11,12 +11,13 @@ public class Filter {
 		
 //		finding the even number
 		List<Integer> evenList = list.stream().filter(f -> f % 2 == 0)
-				.toList();
-//				.collect(Collectors.toList());
+//				.toList();
+				.collect(Collectors.toList());
 		System.out.println(evenList);
 		
 		List<Integer> map = list.stream().filter(f -> f > 5)
-				.toList();
+//				.toList();
+				.collect(Collectors.toList());
 		System.out.println(map);
 	}
 
