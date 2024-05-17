@@ -2,7 +2,7 @@ package arrays;
 
 // Kadane's Algorithm
 
-public class LargestSumSubarray {
+public class MaxSubArraySum {
 
 //	Brute-force
 	static int subarraySumBrute(int[] arr) {
